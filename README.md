@@ -40,3 +40,16 @@ steps:
 2) If provided mail id is correct, it will ask for password.
 3) If provided password is correct it will ask mobile number to send OTP.
 4) Entering correct OTP gives access to user account.
+
+# Public-key-infrastructure in blockchain wallet
+ Public Key Infrastructure (PKI) is a system of processes, technologies, and policies that allows you to encrypt and/or sign data. With PKI, you can issue digital certificates that authenticate the identity of users, devices, or services.
+
+In the program name "pki_wallet.py" we have implemented PKI in blockchain wallet using python programming, this program authenticates user using public key.
+Twilio is used to send OTP number.
+
+Steps:
+1) firstly, it will ask for the recipient's public address.
+2) If the provided public address is valid, it will proceed to OTP based authentication.
+3) If entered OTP is correct the program prints a successful message to the user.
+
+
