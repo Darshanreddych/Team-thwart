@@ -28,7 +28,7 @@ block consists of:
 5. nonce
 
 
-#Two-factor authentication
+# Two-factor authentication
   Two-factor authentication provides higher level of security than other methods like single-factor authentication, two-factor authentication is also known as two-step verification where a authentication system verifies user by asking
 two factors to prove his identity.
 
