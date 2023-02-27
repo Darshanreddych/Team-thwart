@@ -52,4 +52,9 @@ Steps:
 2) If the provided public address is valid, it will proceed to OTP based authentication.
 3) If entered OTP is correct the program prints a successful message to the user.
 
+# nonce
+
+A nonce is an arbitrary number used only once in a cryptographic communication, in the spirit of a nonce word. They are often random or pseudo-random numbers.
+
+This is simple program in which we tried a simple nonce generation, with some difficulty levels.
 
