@@ -26,3 +26,17 @@ block consists of:
 3. time stamp
 4. hash of the block
 5. nonce
+
+
+#Two-factor authentication
+  Two-factor authentication provides higher level of security than other methods like single-factor authentication, two-factor authentication is also known as two-step verification where a authentication system verifies user by asking
+two factors to prove his identity.
+
+In the program name "auth.py" we have implemented a python program to authenticate the user by asking two factors i.e password and OTP number, the email address and password is stored using dictionary in the program itself, "twilio"
+application is used to send OTP to the provided mobile number, python has inbuilt module called twilio to provide this functionality.
+
+steps:
+1) firstly, it will ask for email address.
+2) If provided mail id is correct, it will ask for password.
+3) If provided password is correct it will ask mobile number to send OTP.
+4) Entering correct OTP gives access to user account.
